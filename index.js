@@ -9,7 +9,7 @@ function playQuiz(Question, Answer){
 
 var userAnswer= readlineSync.question(Question);
 
-if(userAnswer==Answer){
+if(userAnswer===Answer){
   score++;
   console.log(" Correct answer !!!!");
 }
